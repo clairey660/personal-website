@@ -2,10 +2,10 @@ body {
     background:
         url("../images/frog3.png");
     background-color: #d4bbf6;
+    color: black !important;
     background-repeat: repeat;
     background-size: 20%;
     background-position: center;
-    color: rgb(255, 255, 255);
 }
 
 img {
@@ -19,10 +19,12 @@ img {
 }
 
 h1 {
+    display: inline-block;
     padding-top: 15%;
     line-height: 0.5em;
     font-size: 150px;
     font-weight: 300;
+    background-color: #d4bbf6;
 }
 
 h2 {
@@ -34,6 +36,7 @@ h2 {
     font-size: 100px;
     font-weight: 200;
     padding: 10px;
+    background-color: #d4bbf6;
 }
 
 h3 {
@@ -42,7 +45,8 @@ h3 {
     width: 40%;
     font-size: 40px;
     font-weight: 400;
-    padding-bottom: 18%;
+
+    background-color: #d4bbf6;
 }
 
 button {
@@ -59,25 +63,31 @@ br {
     content: " ";
 }
 
+p {
+    display: inline-block;
+    background-color: #d4bbf6;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 
-.p1 {
-    font-size: 45px;
-    font-weight: 300;
-    bottom: 900px;
-    padding-bottom: 15%;
+.container {
+    display: flex;
+    text-align: center;
 }
 
 .resize {
-    width: 50px;
+    width: 90%;
     height: auto;
 }
 
 
 
 .nav {
+    background-color: #d4bbf6d3;
     position: relative;
     top: 0%;
-    background-color: transparent;
     display: block;
     width: 100%;
     overflow: hidden;
@@ -86,7 +96,7 @@ br {
 .nav a {
     float: right;
     display: block;
-    color: #ffffff;
+    color: black;
     font-weight: 600;
     text-align: center;
     text-shadow: rgb(241, 222, 255) 1px 0 10px;
