@@ -30,7 +30,7 @@ body {
 }
 
 #shape2 {
-    background-color: #e74c3c;
+    background-color: #b453b4;
     animation-name: moveShape2;
 }
 
@@ -88,6 +88,6 @@ p {
     }
 
     50% {
-        color: #e74c3c;
+        color: #e73cb7;
     }
 }
