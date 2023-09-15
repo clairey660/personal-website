@@ -6,16 +6,16 @@ function toggleStyleSheet() {
     }
     var main = t.getAttribute('href');
     var on_off = s.getAttribute('src');
-    if (main === 'index.css') {
-        on_off = "../images/off.png";
-        main = 'special.css';
+    if (main === "../styles/default.css") {
+        on_off = "../images/on.png";
+        main = "../styles/special.css";
     }
     else {
-        on_off = "../images/on.css";
-        main = 'default.css';
+        on_off = "../images/off.png";
+        main = "../styles/default.css";
     }
     t.setAttribute("href", main);
-    t.setAttribute("src", on_off);
+    s.setAttribute("src", on_off);
     localStorage.setItem("storedColor", main);
     localStorage.setItem("storedButton", on_off);
 }

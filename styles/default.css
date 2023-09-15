@@ -76,6 +76,11 @@ br {
     margin: 250px 0;
 }
 
+.resize {
+    min-width: 80%;
+    float: none;
+}
+
 .container {
     display: flex;
     flex-direction: column;
